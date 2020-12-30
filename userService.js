@@ -2,7 +2,7 @@
 //const faker = require("faker");
 const express = require("express");
 const app = express();
-const cors = require("cors");
+const Cryptojs = require("crypto-js");
 
 //Acceso a la BD
 const db = require("./data/conector");
